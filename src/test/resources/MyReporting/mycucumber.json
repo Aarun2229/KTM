@@ -1,0 +1,158 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Google search scenario",
+        "description": "",
+        "id": "this-is-to-test-google-search;google-search-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9907154667,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is entering the google.co.in",
+            "match": {
+              "location": "OpenGoogleDefinition.user_is_entering_the_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 114668889,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user is typing the search term \"Arun\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arun",
+                  "offset": 32
+                }
+              ],
+              "location": "OpenGoogleDefinition.user_is_typing_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1630593778,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the return key",
+            "match": {
+              "location": "OpenGoogleDefinition.enter_the_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 341928444,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "OpenGoogleDefinition.the_user_should_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Positive"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "invalid",
+        "description": "",
+        "id": "this-is-to-test-google-search;invalid",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4560941333,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user is entering the google.co.in",
+            "match": {
+              "location": "OpenGoogleDefinition.user_is_entering_the_google_co_in()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 81286223,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is typing the search term \"Arun\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Arun",
+                  "offset": 32
+                }
+              ],
+              "location": "OpenGoogleDefinition.user_is_typing_the_search_term(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 4280995556,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "enter the return key",
+            "match": {
+              "location": "OpenGoogleDefinition.enter_the_return_key()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 290604000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "the user should see the search results",
+            "match": {
+              "location": "OpenGoogleDefinition.the_user_should_see_the_search_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 13,
+            "name": "@Negtive"
+          }
+        ]
+      }
+    ],
+    "name": "This is to test google search",
+    "description": "",
+    "id": "this-is-to-test-google-search",
+    "keyword": "Feature",
+    "uri": "myfeatureFiles/OpenGoogle.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Simple"
+      }
+    ]
+  }
+]

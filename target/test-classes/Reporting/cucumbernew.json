@@ -1,0 +1,171 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 11925772,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 372444,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario2()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verifying facebook valid login details",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-facebook-valid-login-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 238222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.AfterScenario2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 4,
+            "name": "User is on the facebook page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "User enters \"hello\" , \"java\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "User should click the login button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 280888,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 187111,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.beforeScenario2()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "Verifying facebook valid login details",
+        "description": "",
+        "id": "verifying-facebook-details;verifying-facebook-valid-login-details;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 278222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.AfterScenario1()"
+            }
+          },
+          {
+            "result": {
+              "duration": 202222,
+              "status": "passed"
+            },
+            "match": {
+              "location": "HookClass.AfterScenario2()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User is on the facebook page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "User enters \"hello\" , \"java\"",
+            "match": {},
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User should click the login button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 12,
+            "name": "@Reg"
+          }
+        ]
+      }
+    ],
+    "name": "Verifying facebook details",
+    "description": "",
+    "id": "verifying-facebook-details",
+    "keyword": "Feature",
+    "uri": "json.feature"
+  }
+]
