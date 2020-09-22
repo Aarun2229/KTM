@@ -14,6 +14,9 @@ import cucumber.api.junit.Cucumber;
 , plugin = {"pretty","json:src\\test\\resources\\Reporting\\cucumbernew.json"}, snippets = SnippetType.CAMELCASE)
 public class TestRunnerClass 
 {
+	private void syso() {
+System.out.println();
+	}
 	@AfterClass
 	public static void afterClass()
 	{
@@ -21,7 +24,6 @@ public class TestRunnerClass
 	.generateJVMReport(System.getProperty("user.dir")+"\\src\\test\\resources\\Reporting\\cucumbernew.json");
 		
 	}
-	
 
 }
 
